@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="UMKM Product Batang best restaurant">
-    <meta name="robots" content="index, follow">
-    <title>Restaurant</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>child-1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <style>
       body{
         margin: 0px;
       }
-
       .key-container {
         height: 700px;
         background-image: url(key-background.jpg);
@@ -33,6 +33,8 @@
         z-index: 100;
         background-color: rgba(255, 255, 255, 0.1);
         transition: background-color 0.3s ease;
+        border: 1px solid #fff;
+
       }
 
       .key-header img {
@@ -100,65 +102,32 @@
         color: #fff;
       }
 
-      .box{
-        width: 100%;
-        height: auto;
-        background-color: white;
-        display: flex;
-        flex-direction: row;
-    }
-    .gambar{
-        position: relative;
-        left: 35%;
-        top: 250px;
-        width: 783px;
-        height: 413px;
-        border-radius: 3px;
-        transform: translate(-50%, -50%);
-        background-image: url(wine-710x375.jpg);
-        background-size: 800px 500px;
-        animation: animate 5s linear infinite;
-    }
-    @keyframes animate{
-       25%, 100%{
-        background-image: url(wine-710x375.jpg);
-       }
-       40%{
-        background-image: url(pizza-845x684.jpg);
-       }
-       75%{
-        background-image: url(pasta-710x375.jpg);
-       }
-    }
-    
     </style>
-</head>
-<body>
-    <div class="container">
-      <div class="key-container">
-        <div class="key-header">
-          <img src="key-white-logo.png" alt="key-logo-header" />
-          <div class="key-right-header">
-            <div class="key-menu">
-              <span>Welcome</span>
-              <span>Menu</span>
-              <span>Delivery</span>
-              <span>Location</span>
-              <span>About</span>
-              <span>News</span>
-              <button>Reservations</button>
-            </div>
+  </head>
+  <body>
+    <div class="key-container">
+      <div class="key-header">
+        <img src="key-white-logo.png" alt="key-logo-header" />
+        <div class="key-right-header">
+          <div class="key-menu">
+            <span>Welcome</span>
+            <span>Menu</span>
+            <span>Delivery</span>
+            <span>Location</span>
+            <span>About</span>
+            <span>News</span>
+            <button>Reservations</button>
           </div>
         </div>
-  
-        <div class="key-bawah">
-          <h1>WELCOME TO <b>ENFOLD RESTAURANT</b></h1>
-          <span>The best gournet restaurant availablein Mahatten<br>
-          Book 
-          <a href="#">online</a> or call 
-          <a href="#">(555)123-4567</a></span>
-        </div>
+      </div>
+
+      <div class="key-bawah">
+        <h1>WELCOME TO <b>ENFOLD RESTAURANT</b></h1>
+        <span>The best gournet restaurant availablein Mahatten<br>
+        Book 
+        <a href="#">online</a> or call 
+        <a href="#">(555)123-4567</a></span>
       </div>
     </div>
-</body>
+  </body>
 </html>

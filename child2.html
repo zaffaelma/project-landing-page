@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chil2</title>
+</head>
+<style>
+    
+    .box{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+    }
+    .gambar{
+        position: relative;
+        left: 35%;
+        top: 250px;
+        width: 783px;
+        height: 413px;
+        border-radius: 3px;
+        transform: translate(-50%, -50%);
+        background-image: url(wine-710x375.jpg);
+        background-size: 800px 500px;
+        animation: animate 5s linear infinite;
+    }
+    @keyframes animate{
+       25%, 100%{
+        background-image: url(wine-710x375.jpg);
+       }
+       40%{
+        background-image: url(pizza-845x684.jpg);
+       }
+       75%{
+        background-image: url(pasta-710x375.jpg);
+       }
+    }
+    .tuulis{
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    .tuulis h2{
+        margin: 0 0 0 100px;
+        margin-top: 4px;
+        line-height: 1,5px;
+        font-family: arial;
+        font-size: 28px;
+        
+    }
+    .tuulis h3{
+        font-size: 15px;
+        margin:  0 0 0 100px;
+        margin-top: 4px;
+        font-family: arial;
+        font-weight: normal;
+        color: grey;
+    }
+    .tuulis h1{
+        font-size: 30px;
+        margin:  0 0 0 100px;
+        font-weight: 40;
+        padding-top: 40px;
+        font-family: arial;
+        font-size: 28px;
+    }
+    .tuulis p{
+        margin-top: 10px;
+        margin-left:100px;
+        color: grey;
+        font-size: 14px;
+    }
+    .lines {
+        height: 45px;
+        border-left: 7px solid brown;
+        margin-left: 100px;
+    }
+    .lines a{
+       font-size: 18px;
+       margin-left: 25px;
+     
+    }
+    .lines br{
+        margin-left: 15px;
+    }
+    .lines2 a{
+       font-size: 18px;
+       margin-left: 25px;
+    }
+    .menu1{
+        margin-left: -1215px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        margin-top: 510px;
+    }
+    .menu1 img{
+        width: 360px;
+        height: 287px;
+        padding: 0px ;
+        border-radius: 3px;
+    }
+    .menu1 h4{
+        margin-top: 8px;
+        padding: 0px;
+    }
+    
+    .menu1 p{
+        color: gray;
+        margin-top: -6px;
+        font-family: 'Times New Roman';
+        font-size: 14px;
+    }
+    .atas{
+        display: flex;
+        flex-direction: row;
+    }
+    .bawah{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .bawah2{
+        display: flex;
+        flex-direction: column;   
+    }
+    .menu2{
+        margin-left: -792px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        margin-top: 510px;
+    }
+    .menu2 img{
+        width: 360px;
+        height: 287px;
+        padding: 0px ;
+        border-radius: 3px;  
+    }
+    .menu2 h4{
+        margin-top: 8px;
+        padding: 0px;
+    }
+    .menu2 p{
+        color: gray;
+        margin-top: -6px;
+        font-family: 'Times New Roman';
+        font-size: 14px;
+    }
+</style>
+<body>
+    <div class="box">
+    <div class="atas">
+    <div class="gambar"></div>
+    <div class="tuulis">
+        <h1>AMAZING MEALS <font color="brown">&</font><br></h1>
+            <strong><h2>GREAT ENTERTAINMENT</h2></strong>
+        <h3>We hope to see you soon!</h3>
+        <p>Lorem ipsum dolor sit amet, <font color="brown">consectetuer</font> adipiscing elit.<br>
+             Aenean commodo ligula eget dolor. Aenean massa. Cum sociis<br>
+             natoque penatibus et magnis dis parturient montes, nascetur<br>
+              ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,<br>
+               pretium quis, sem.</p>
+        <p>Venenatis vitae, justo. Nullam dictum felis eu pede mollis<br>
+             pretium. Integer tincidunt. Cras dapibus. Vivamus elementum<br>
+              semper nisi. Aenean vulputate eleifend tellus.<br></p>
+        <div class="lines">
+        <a>Nulla consequat massa quis enim. Doncus us</a>
+        <div class="lines2">
+            <a>imperdiet a.</a>
+        </div>
+        </div>
+    </div>
+    </div>
+    <div class="bawah">
+    <div class="menu1">
+        <img src="pizza-845x684.jpg">
+        <h4>★ THE BEST INGREDIENTS</h4>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br>
+             Aenean commodo ligula eget dolor.</p>
+    </div>
+    <div class="bawah2">
+        <div class="menu2">
+            <img src="burger.jpg">
+            <h4>★ RESERVATIONS</h4>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br>
+                Aenean commodo ligula eget dolor</p>
+        </div>
+    </div>
+    </div>
+    </div>
+    
+</body>
+</html>
